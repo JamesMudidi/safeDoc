@@ -109,7 +109,7 @@ img{
 
 /*========== CLASS CSS ==========*/
 .section{
-  padding: 4rem 0 2rem;
+  padding: 30rem 0 2rem;
 }
 
 .section-title, .section-subtitle{
@@ -187,11 +187,11 @@ img{
 
 .nav__logo{
   font-size: 2rem;
-  color: var(--first-color-alt);
+  color: var(--first-color);
 }
 
 .nav__logo:hover{
-  color: var(--first-color);
+  color: var(--first-color-alt);
 }
 
 .nav__link{
@@ -231,7 +231,7 @@ img{
   justify-content: center;
   align-items: center;
   padding: .3rem;
-  background: rgba(6,156,84,.5);
+  background: rgba(1, 224, 231, 0.5);
   border-radius: .4rem;
   z-index: var(--z-tooltip);
   transition: .4s;
@@ -239,7 +239,7 @@ img{
 }
 
 .scrolltop:hover{
-  background-color: var(--first-color-alt);
+  background-color: var(--first-color);
 }
 
 .scrolltop__icon{
@@ -469,6 +469,10 @@ img{
     align-items: center;
   }
 
+  .section {
+    padding: 30rem 0 2rem;
+  }
+
   .about__data, .about__initial,
   .app__data, .app__initial,
   .contact__container, .contact__initial{
@@ -495,7 +499,7 @@ img{
   }
 
   .section{
-    padding-top: 8rem;
+    padding-top: 30rem;
   }
 
   .nav{
@@ -548,6 +552,10 @@ img{
     margin-left: auto;
     margin-right: auto;
   }
+
+  .section{
+    padding: 4rem 0 2rem;
+    }
 
   .home__img{
     width: 500px;

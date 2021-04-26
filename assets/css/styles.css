@@ -129,6 +129,19 @@ img{
   margin-bottom: var(--mb-1);
 }
 
+.section-sub{
+  display: block;
+  color: var(--first-color);
+  font-weight: var(--font-medium);
+}
+
+.dot{
+  display: block;
+  visibility: hidden;
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1);
+}
+
 /*========== LAYOUT ==========*/
 .bd-container{
   max-width: 960px;
@@ -329,6 +342,13 @@ img{
   margin-bottom: var(--mb-1);
 }
 
+.services__subtitle{
+  font-size: var(--h6-font-size);
+  color: var(--title-color);
+  margin-bottom: var(--mb-1);
+}
+
+
 .services__description{
   padding: 0 1.5rem;
 }
@@ -433,6 +453,12 @@ img{
 
 .footer__social{
   font-size: 1.5rem;
+  color: var(--title-color);
+  margin-right: var(--mb-2);
+}
+
+.social__icons{
+  font-size: 1rem;
   color: var(--title-color);
   margin-right: var(--mb-2);
 }
